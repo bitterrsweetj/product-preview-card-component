@@ -23,8 +23,8 @@ Screenshot of the mobile version
 
 ### Links
 
-- Solution URL: [here]()
-- Live Site URL: [here](https://your-live-site-url.com)
+- Solution URL: [here](https://www.frontendmentor.io/solutions/responsive-product-preview-card-H7oWDYyLI9)
+- Live Site URL: [here](https://bitterrsweetj.github.io/product-preview-card-component/)
 
 ## My process
 
