@@ -14,11 +14,11 @@ Users should be able to:
 
 Screenshot of the desktop version
 
-![](./screenshot-desktop.jpg)
+![](./screenshot-desktop.ppg)
 
 Screenshot of the mobile version
 
-![](./screenshot-mobile.jpg)
+![](./screenshot-mobile.ppg)
 
 
 ### Links
