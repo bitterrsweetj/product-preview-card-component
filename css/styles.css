@@ -10,7 +10,7 @@
 }
 
 * {
-  margin:0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -27,27 +27,26 @@ body {
 
 main {
   height: 98vh;
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
   overflow: hidden;
   display: flex;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   width: 600px;
   height: 450px;
   background-color: var(---white);
   border-radius: 14px;
 }
 
-.main-img {
-  background-image: url("../images/image-product-desktop.jpg");
-  width: 300px;
-  flex-shrink: 0;
-  background-size: cover;
+.main-img, .content {
+  flex: 50%;
+}
+
+.main-img img {
+  width: 100%;
 }
 
 .content {
@@ -122,11 +121,12 @@ footer {
 }
 
 
-@media (max-width: 375px) {
+@media (max-width: 570px) {
 
   main {
     height: 100vh;
   }
+
   .container {
     width: 343px;
     flex-direction: column;
